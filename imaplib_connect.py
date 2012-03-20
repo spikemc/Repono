@@ -13,8 +13,8 @@ def open_connection(verbose=False):
     connection = imaplib.IMAP4_SSL('imap.gmail.com', 993)
 
     # Login to our account
-    username = 'spikemccue@gmail.com'
-    password = 'brookemccue123'
+    username = 'username'
+    password = 'password'
     if verbose: print 'Logging in as', username
     connection.login(username, password)
     return connection
